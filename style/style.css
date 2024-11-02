@@ -1,14 +1,11 @@
+@import url('header.css');
+
 /*criando variáveis*/
 :root{
-    --color-header: #00879A;
-    --color-primary-2: #ffe8b4;
-    --color-primary-3: #ffe100;
-    --color-primary-4: #ffcb45;
-    --color-primary-5: #f8d477;
-    --color-primary-6: #e9a209;
+    --color-header: #129DB0;
+    --background-color-item: #BFE7ED;
+    --text-color: #003153;
 
-    --color-neutral-0: #fff;
-    --color-neutral-1: #1d1d1d;
 }
 
 *{
@@ -16,26 +13,10 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-size: 62.5%;
 }
 
-/*estilizando o header*/
-header{
+body{
     width: 100%;
-    height: 86px;
-    background-color: var(--color-header);
-    display: flex;
-}
-
-header img{
-    width: 76px;
-    height: 76px;
-    margin-top: 5px;
-    margin-left: 46px;
-    margin-right: 554px;
-}
-
-nav{
-    display: flex;
-    align-items: center;
-    justify-content: space-evenly;
+    height: 100%;
 }

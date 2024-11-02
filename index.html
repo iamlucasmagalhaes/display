@@ -5,39 +5,79 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Display</title>
     <!--Fontes-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Sora:wght@100..800&display=swap" rel="stylesheet">
     <!--CSS-->
     <link rel="stylesheet" href="style/style.css">
+    <!--Script-->
+    <script src="script/script.js" defer></script>
 </head>
 <body>
     <!--Começo do header-->
     <header>
-        <img src="assets/Logo.png" alt="Logo do site">
-        <!--Começo da nav bar-->
-        <nav>
-            <li class="nav-item">
-                <a href="#">Home</a>
-            </li>
-            
-            <li class="nav-item">
-                <a href="#">Projetos</a>
-            </li>
-            
-            <li class="nav-item">
-                <a href="#">Notícias</a>
-            </li>
+        <div class="navbar">
+            <img src="assets/Logo.png" alt="Logo do site">
 
-            <li class="nav-item">
-                <a href="#">Institucional</a>
-            </li>
+            <nav class="menu">
+                <ul class="nav-list">
+                    <li class="nav-item">
+                        <a href="#">Home</a>
+                    </li>
 
-            <li class="nav-item">
-                <a href="#">Quem somos</a>
-            </li>
-        </nav>
-        <!--Fim da nav bar-->
+                    <li class="nav-item">
+                        <a href="#">Projetos</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a href="#">Notícias</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a href="#">Institucional</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a href="#">Quem somos</a>
+                    </li>
+                </ul>
+            </nav>
+
+            <button class="btn-default">
+                <i class="fa-solid fa-magnifying-glass"></i>
+            </button>
+
+            <button class="mobile-btn">
+                <i class="fa-solid fa-bars"></i>
+            </button>
+        </div>
+        
+        <div>
+            <nav class="mobile-menu">
+                <ul class="mobile-nav-list">
+                    <li class="nav-item">
+                        <a href="#">Home</a>
+                    </li>
+    
+                    <li class="nav-item">
+                        <a href="#">Projetos</a>
+                    </li>
+    
+                    <li class="nav-item">
+                        <a href="#">Notícias</a>
+                    </li>
+    
+                    <li class="nav-item">
+                        <a href="#">Institucional</a>
+                    </li>
+    
+                    <li class="nav-item">
+                        <a href="#">Quem somos</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
     </header>
     <!--Fim do header-->
 </body>
