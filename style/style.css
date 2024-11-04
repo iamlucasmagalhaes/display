@@ -1,4 +1,11 @@
 @import url('header.css');
+@import url('home.css');
+
+html, body{
+    width: 100vw;
+    height: 100vh;
+    margin: 0;
+}
 
 /*criando variáveis*/
 :root{
