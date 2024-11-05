@@ -5,33 +5,41 @@ main{
     background-color: var(--color-header);
 }
 
-.home{
+/*estiliza toda a minha tag home*/
+.home {
     display: flex;
-    align-items: stretch;
+    align-items: center;
     justify-content: center;
-    height: 90%;
-    width: 100%;
+    height: 90vh;
+    width: 100vw;
+    max-height: 90vh;
+    max-width: 100vw;
     background-color: var(--color-header);
     background-image: url('../assets/outro\ teste.jpg');
     background-repeat: no-repeat;
     background-position: top center;
     background-size: cover;
+    position: relative;
+    overflow: hidden;
 }
 
-.text-main{
+/*estiliza a minha caixa de texto da home, como o bot"ao e o título*/
+.text-main {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    width: 60.4rem;
-    height: 40.2rem;
+    width: 100%;
+    height: 70%;
     background-image: url('../assets/escrita\ background.png');
     background-repeat: no-repeat;
     background-position: top center;
     background-size: contain;
-    margin-top: 5.3rem;
+    text-align: center;
+    overflow: hidden;
 }
 
+/*estiliza o titulo*/
 .text-main h1{
     text-align: center;
     font-family: "Inter", sans-serif;
@@ -40,8 +48,10 @@ main{
     font-size: 7.5rem;
     line-height: 15.42rem;
     margin-top: 7.2rem;
+    margin-bottom: -3rem;
 }
 
+/*texto que está abaixo do título*/
 .text-main p.about{
     text-align: center;
     font-family: "Inter", sans-serif;
@@ -50,6 +60,7 @@ main{
     font-size: 1.7rem;
 }
 
+/*frase "Entre em um mundo de inovação e criatividade"*/
 .text-main p.motivationalPhrase{
     text-align: center;
     font-family: "Inter", sans-serif;
@@ -57,8 +68,10 @@ main{
     color: white;
     font-size: 1.2rem;
     margin-bottom: 2.4rem;
+    margin-top: 8.4rem;
 }
 
+/*botâo da home*/
 .btn-main{
     width: 4.9rem;
     width: 15.9rem;
@@ -75,8 +88,21 @@ main{
     color: var(--text-color);
 }
 
+/*remover essa parte de .games*/
 .games{
     height: 300px;
     width: 300px;
     background-color: green;
+}
+
+@media screen and (max-width: 480px){
+    .home{
+        background-image: url('../assets/paginamobile.png');
+        background-size: contain;
+
+    }
+
+    .text-main{
+        display: none;
+    }
 }
