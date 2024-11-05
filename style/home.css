@@ -97,7 +97,7 @@ main{
 
 @media screen and (max-width: 480px){
     .home{
-        background-image: url('../assets/paginamobile.png');
+        background-image: url('../assets/teste-mobile.png');
         background-size: contain;
 
     }
