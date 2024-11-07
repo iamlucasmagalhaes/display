@@ -1,6 +1,3 @@
-@import url('header.css');
-@import url('home.css');
-
 html, body{
     margin: 0;
 }
@@ -10,6 +7,9 @@ html, body{
     --color-header: #129DB0;
     --background-color-item: #BFE7ED;
     --text-color: #003153;
+    --news-background: #B7F293;
+    --news-text-color: #01282D;
+    --btn-news: #00879A;
 }
 
 *{
