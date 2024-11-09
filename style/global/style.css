@@ -10,6 +10,9 @@ html, body{
     --news-background: #B7F293;
     --news-text-color: #01282D;
     --btn-news: #00879A;
+
+    --page-path-color: #05505A;
+    --title-color: #05505A;
 }
 
 *{
