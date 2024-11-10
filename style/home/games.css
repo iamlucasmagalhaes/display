@@ -1,0 +1,64 @@
+.games{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    background-color: var(--games-background);
+    padding-top: 3.1rem;
+}
+
+.games h2{
+    align-self: flex-start;
+    font-weight: 700;
+    font-size: 7.4rem;
+    color: var(--games-font-color-title);
+    margin-left: 5rem;
+}
+
+.games-container{
+    display: flex;
+    align-items: center;
+    gap: 5.7rem;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.games-container .game-content .picture{
+    width: 26.2rem;
+    height: 26.3rem;
+    border-radius: .2rem 0 0 0;
+    background-color: var(--background-color-picture-game);
+    box-shadow: 0px 4px 4px 0px #00000040;
+    margin-bottom: 4.7rem;
+}
+
+.picture img{
+    margin-top: 1.4rem;
+    margin-bottom: 2.3rem;
+    margin-left: 1.7rem;
+    margin-right: 1.7rem;
+}
+
+.picture h3{
+    font-size: 1.8rem;
+    font-weight: 400;
+    text-align: center;
+    color: var(--news-text-color);
+}
+
+.games-btn{
+    width: 11rem;
+    height: 4.9rem;
+    background-color: var(--btn-news);
+    border-radius: 9rem;
+    color: white;
+    box-shadow: -1px 1px 5.7px 0px #0000004D;
+    font-size: 1.5rem;
+    font-weight: 500;
+    font-family: "Inter", sans-serif;   
+    margin-top: 5rem;
+    margin-bottom: 5.7rem;
+    margin-right: auto;
+    margin-left: auto;
+    border: none;
+}

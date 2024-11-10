@@ -16,6 +16,10 @@ html, body{
     --title-color: #05505A;
 
     --magazine-title-color: #05505A;
+
+    --games-background: #9EDAEE;
+    --games-font-color-title: #00879AB8;
+    --background-color-picture-game: #F0F9FC;
 }
 
 *{
