@@ -1,0 +1,73 @@
+.magazine{
+    background-color: white;
+    padding-top: 4.4rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.magazine h3{
+    font-weight: 700;
+    font-size: 1.8rem;
+    text-align: center;
+    color: var(--magazine-title-color);
+    margin-bottom: 4.2rem;
+}
+
+.magazine-container{
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 4.3rem;
+    flex-wrap: wrap;
+}
+
+.notices-magazine-container{
+    max-width: 43.2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.notices-magazine-container img{
+    margin-bottom: 1.4rem;
+}
+
+.notices-magazine-container h4{
+    font-weight: 400;
+    font-size: 2rem;
+    color: black;
+    margin-bottom: 2.5rem;
+}
+
+.notices-magazine-container p.publication-date{
+    font-weight: 300;
+    font-size: 1.4rem;
+    color: black;
+}
+
+.notices-magazine-container p{
+    font-weight: 300;
+    font-size: 1.6rem;
+    line-height: 2rem;
+    margin-top: .9rem;
+    color: black;
+    text-align: justify;
+}
+
+.magazine-btn{
+    width: 11rem;
+    height: 4.9rem;
+    background-color: var(--btn-news);
+    border-radius: 9rem;
+    color: white;
+    box-shadow: -1px 1px 5.7px 0px #0000004D;
+    font-size: 1.5rem;
+    font-weight: 500;
+    font-family: "Inter", sans-serif;   
+    margin-top: 5rem;
+    margin-bottom: 5.7rem;
+    margin-right: auto;
+    margin-left: auto;
+}

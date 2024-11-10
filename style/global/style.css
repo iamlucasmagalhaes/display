@@ -7,12 +7,15 @@ html, body{
     --color-header: #129DB0;
     --background-color-item: #BFE7ED;
     --text-color: #003153;
+
     --news-background: #B7F293;
     --news-text-color: #01282D;
     --btn-news: #00879A;
 
     --page-path-color: #05505A;
     --title-color: #05505A;
+
+    --magazine-title-color: #05505A;
 }
 
 *{
