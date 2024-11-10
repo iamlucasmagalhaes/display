@@ -20,6 +20,11 @@ html, body{
     --games-background: #9EDAEE;
     --games-font-color-title: #00879AB8;
     --background-color-picture-game: #F0F9FC;
+
+    --cast-background-color: #BCEBFA;
+    --cast-color-bar:#9AED8A;
+    --cast-btn-color: #006674;
+
 }
 
 *{

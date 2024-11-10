@@ -1,4 +1,5 @@
 @import "intro.css";
-@import "news.css";
-@import "magazine.css";
-@import "games.css"
+@import "news/news.css";
+@import "magazine/magazine.css";
+@import "games/games.css";
+@import "cast/cast.css";
