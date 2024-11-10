@@ -44,7 +44,16 @@
 
 .line-projects {
   margin: 30px 0px;
-  border-top: 2px solid #9EDAEE;
+  border-top: 3px solid #9EDAEE;
+  width: 95%;
+}
+
+.line-side-bar {
+  margin: auto;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  border-top: 2px solid #01282D;
+  width: 85%;
 }
 
 
