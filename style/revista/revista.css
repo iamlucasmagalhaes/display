@@ -1,3 +1,18 @@
+#edicao {
+  max-width: 220px;
+  color: #006674;
+  border: 2px solid #00879A;
+  border-radius: 12px;
+  padding: 1% 2% 1% 2%;
+  background-color: #C8E5E9;
+}
+
+#edicao>select {
+  background-color: #C8E5E9;
+  border: 0px;
+  color: #006674;
+}
+
 #content {
   display: flex;
   flex-wrap: wrap;
@@ -5,7 +20,7 @@
   justify-content: space-between;
 }
 
-#projects {
+#posts {
   width: 75%;
 }
 
@@ -17,7 +32,7 @@
   padding: 1%;
 }
 
-.line-projects {
+.line-posts {
   margin: 30px 0px;
   border-top: 3px solid #9EDAEE;
   width: 95%;
@@ -33,7 +48,7 @@
 
 
 @media(max-width: 1200px) {
-  #projects {
+  #posts {
     width: 100%;
   }
 
