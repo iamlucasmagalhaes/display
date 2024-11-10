@@ -2,7 +2,7 @@
     width: 100%;
     background-color: var(--news-background);
     display: flex;
-    padding-right: 6.4rem;
+    flex-wrap: wrap;
 }
 
 .mobile-title,
@@ -11,17 +11,24 @@
 }
 
 .news img{
-    width: 75.2rem;
-    height: 47.7rem;
     margin-top: 5.2rem;
     margin-bottom: 8.75rem;
 }
 
+.news-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 6.4rem;
+    flex-wrap: wrap;
+}
+
 .news-content{
-    margin-left: 6.4rem;
     display: flex;
     flex-direction: column;
     align-items: center;
+    max-width: 84.8rem;
+    text-align: center;
 }
 
 .news-content h2{
