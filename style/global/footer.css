@@ -1,0 +1,109 @@
+footer{
+    background-color: var(--footer-background-color);
+}
+
+.info-main{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding-top: 8rem;
+}
+
+.info-display,
+.info-if{
+    display: flex;
+    align-items: center;
+}
+
+.info-display-text h2{
+    font-size: 3rem;
+    color: white;
+    font-weight: 500;
+    margin-bottom: .65rem;
+}
+
+.info-display-text p,
+.info-if p{
+    font-size: 1.4rem;
+    font-weight: 400;
+    color: white;
+    margin-bottom: 1.4rem;
+}
+
+.info-if img{
+    margin-bottom: 3.9rem;
+}
+
+.social-media{
+    display: flex;
+    flex-direction: column;
+}
+
+.social-media h2{
+    font-size: 1.5rem;
+    color: white;
+    font-weight: 600;
+    padding-bottom: 1.3rem;
+}
+
+.img-social-media{
+    display: flex;
+    flex-direction: row;
+    gap: 1.3rem;
+}
+
+.basic-info{
+    display: flex;
+    gap: 11rem;
+}
+
+.footer-project h2,
+.footer-institutional h2,
+.footer-us h2{
+    font-family: "Sora", sans-serif;
+    font-weight: 700;
+    font-size: 1.8rem;
+    color: white;
+    margin-bottom: 2.6rem;
+}
+
+ul li{
+    font-family: "Sora", sans-serif;
+    font-weight: 400;
+    font-size: 1.6rem;
+    color: white;
+    list-style-type: none;
+    margin-bottom: 1.14rem;
+}
+
+.partners{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.partners h2{
+    font-family: "Sora", sans-serif;
+    font-size: 2.4rem;
+    font-weight: 400;
+    color: white;
+    margin-top: 7.28rem;
+}
+
+.img-partners{
+    margin-bottom: 7rem;
+}
+
+.final-info p{
+    font-size: 1.6rem;
+    font-weight: 400;
+    color: white;
+    text-align: center;
+    margin-top: 2.9rem;
+}
+
+.final-info .bold{
+    font-weight: 700;
+    padding-bottom: 5.4rem;
+}
