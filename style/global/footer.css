@@ -7,6 +7,7 @@ footer{
     align-items: center;
     justify-content: space-around;
     padding-top: 8rem;
+    flex-wrap: wrap;
 }
 
 .info-display,
@@ -37,6 +38,7 @@ footer{
 .social-media{
     display: flex;
     flex-direction: column;
+    margin-bottom: 3.6rem;
 }
 
 .social-media h2{
@@ -55,6 +57,7 @@ footer{
 .basic-info{
     display: flex;
     gap: 11rem;
+    flex-wrap: wrap;
 }
 
 .footer-project h2,
@@ -106,4 +109,45 @@ ul li{
 .final-info .bold{
     font-weight: 700;
     padding-bottom: 5.4rem;
+}
+
+@media screen and (max-width: 1170px){
+    footer{
+        padding: 3rem;
+    }
+    
+    .basic-info{
+        display: block;
+        padding: 3rem;
+    }
+
+    .info{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .footer-institutional,
+    .footer-us{
+        margin-top: 5rem;
+    }
+
+    .partners{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 1.2rem;
+    }
+
+    .img-partners{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .img-partners img{
+        margin-top: 3rem;
+    }
 }
